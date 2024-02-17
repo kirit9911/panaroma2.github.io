@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-entrance">
+        <li class="text">ENTRANCE</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-entry--2">
+        <li class="text">ENTRY  2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-office-1">
+        <li class="text">office 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-office-12">
+        <li class="text">office 12</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-off-5">
+        <li class="text">off 5</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-living-3">
+        <li class="text">living 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-temple-1">
+        <li class="text">TEMPLE 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-temple-12">
+        <li class="text">TEMPLE 12</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-l2">
+        <li class="text">l2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-l3">
+        <li class="text">l3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-lobby-1">
+        <li class="text">lobby 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-lobby-12">
+        <li class="text">lobby 12</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-lobby-4">
+        <li class="text">LOBBY 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-lobby-123">
+        <li class="text">lobby 123</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-informal-l-3">
+        <li class="text">informal l 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-washroom">
+        <li class="text">WASHROOM</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-washroom2">
+        <li class="text">WASHROOM2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-kk-1-1">
+        <li class="text">KK 1 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-kk-2">
+        <li class="text">KK 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-kk-23">
+        <li class="text">KK 23</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-servant-1">
+        <li class="text">SERVANT 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-servant-1jpg2">
+        <li class="text">SERVANT 1.jpg2</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
